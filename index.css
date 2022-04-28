@@ -1,0 +1,55 @@
+#clockContainer
+{
+    position:relative;
+    /* display:flex; */
+    /* border:2px solid red; */
+    /* background-color:red; */
+    height: 45vw;
+    width:45vw;
+    background:url('https://illustoon.com/photo/5054.png') no-repeat;
+    
+    background-size:100%;
+    margin:auto;
+    
+}
+#hour, #minute, #second
+{
+    position:absolute;
+    background:black;
+    border-radius:10px;
+    transform-origin: bottom;
+
+
+}
+#hour
+{
+    left: 49%;
+    width: 3%;
+    top: 25%;
+    left: 27%px;
+    height: 25%;
+    /* display: none; */
+    transform-origin: bottom;
+}
+
+#minute
+{
+    width: 2.0%;
+    top: 17%;
+    left: 49%;
+    height: 33%;
+    /* display: none; */
+    transform-origin: bottom;
+}
+
+
+#second
+{
+    width: 0.5%;
+    top: 15%;
+    left: 49.5%;
+    /* display: none; */
+    /* transform-origin: bottom; */
+    height: 35%;
+    transform-origin: bottom;
+}
